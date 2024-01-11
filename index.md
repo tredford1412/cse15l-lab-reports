@@ -1,2 +1,1 @@
-Hello, world!
-__Bold__
+__Hello, world!__
