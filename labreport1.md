@@ -30,4 +30,5 @@ Example 1 cat with a command with no arguments.
 Example 2 cat with a path to a directory as an argument. The cat command will display an error. This is due to the fact that the cat command does not accept directories. In the example that was run via EdStem, the working directory is the home directory and the output produced an error. 
 ![image](https://github.com/tredford1412/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-16%20at%206.34.56%20PM.png)
 
-Example 3 cat with a path to a file as an argument.
+Example 3 cat with a path to a file as an argument. The cat command printed the contents of the file. In the example that was run via EdStem, the working directory is the home directory and the output did not produce an error. 
+![image](https://github.com/tredford1412/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-16%20at%206.20.01%20PM.png)
