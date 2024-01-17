@@ -4,7 +4,8 @@
 
 ## cd commands
 
-Example 1 cd with a command with no arguments:
+Example 1 cd with a command with no arguments: The cd command changed the working directory to the home directory. In the example that was run via EdStem, the working directory is lecture 1 and the command line produced no output. 
+![image](https://github.com/tredford1412/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-16%20at%206.36.09%20PM.png)
 
 Example 2 cd with a path to a directory as an argument. The cd command had a major impact on the directories. It changed the working directory to the specified directory. In the example that was run via EdStem, the command line produced no output.
 ![image](https://github.com/tredford1412/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-16%20at%206.35.47%20PM.png)
