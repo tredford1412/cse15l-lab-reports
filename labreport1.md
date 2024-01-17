@@ -1,4 +1,6 @@
-//CSE15L Lab Report 1
+# CSE15L Lab Report 1
+## Hugh(Trevor)Redford
+## A17067426
 
 Exmample 1 cd with a command with no arguments:
 cd 
