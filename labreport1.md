@@ -25,7 +25,8 @@ Example 3 ls with a path to a file as an argument. The ls command shows the path
 ![image](https://github.com/tredford1412/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-16%20at%206.13.34%20PM.png)
 ## cat commands
 
-Example 1 cat with a command with no arguments.
+Example 1 cat with a command with no arguments. The cat command made the terminal run non stop. This was due to there being arguments.In the example that was run via EdStem, the working directory is the home directory
+![image](https://github.com/tredford1412/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-16%20at%206.19.21%20PM.png)
 
 Example 2 cat with a path to a directory as an argument. The cat command will display an error. This is due to the fact that the cat command does not accept directories. In the example that was run via EdStem, the working directory is the home directory and the output produced an error. 
 ![image](https://github.com/tredford1412/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-16%20at%206.34.56%20PM.png)
