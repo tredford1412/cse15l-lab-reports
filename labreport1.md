@@ -31,4 +31,4 @@ Example 2 cat with a path to a directory as an argument. The cat command will di
 ![image](catexample2.jpg)
 
 Example 3 cat with a path to a file as an argument. The cat command printed the contents of the file. In the example run via EdStem, the working directory is the home directory and the output did not produce an error. 
-![image](catexampe3.jpg)
+![image](catexample3.jpg)
