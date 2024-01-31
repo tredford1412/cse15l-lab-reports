@@ -14,10 +14,15 @@ As demonstrated in the previous screenshot, the method that is called is handleR
 
 ## Part 2:
 ![image](privatekey.jpg)
+
 In this screenshot, utilizing ls, the path of my priavte ssh key would be C:/Users/trevorredford/.ssh/id_rsa.pub
+
 ![image](publickey1.jpg)
+
 In this screenshot, I use ieng6 and used ssh key. The path to my public key on ieng6 would be ~/.ssh/id_rsa
+
 ![image](nopasswordkey.jpg)
+
 In this screenshot, i was able to login to ieng6 without providing my password.
 
 ## Part 3:
