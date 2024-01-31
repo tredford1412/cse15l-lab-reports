@@ -4,5 +4,6 @@
 
 ## Part 1:
 Here is the code I wrote for the ChatServer file
-![Image]
+![Image](ChatServerpt1.jpg)
+![Image](ChatServerpt2.jpg)
 
