@@ -13,3 +13,12 @@ In this screenshot of the ChatServer at work, the method that is called first is
 As demonstrated in the previous screenshot, the method that is called is handleRequest. It takes the URL as the argument. Once again the important arguments are the path and the query. The query is the same, but this time adds the String "How are you" and the user is "yash", This is done to the field  ArrayList<String> chatMessages, which changes it. This results in the noted change to the server. "yash: How are you" is printed on screen numbered 2. Other requests that lack the /add-message command leads to the server printing out a 404 Not Found! This happens because I did not code for other requests that lack the /add-message command.
 
 ## Part 2:
+![image](privatekey.jpg)
+In this screenshot, utilizing ls, the path of my priavte ssh key would be C:/Users/trevorredford/.ssh/id_rsa.pub
+![image](publickey.jpg)
+In this screenshot, I use ieng6 and used ssh key. The path to my public key on ieng6 would be ~/.ssh/id_rsa
+![image](nopassword.jpg)
+In this screenshot, i was able to login to ieng6 without providing my password.
+
+## Part 3:
+During weeks two and three I learned a lot of valuable information. The most important information was how to login to a remote server and create a personalized key that can let me login without providing my password. 
