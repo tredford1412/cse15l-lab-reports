@@ -6,7 +6,7 @@
 The bug I'm choosing takes in an array, and reverses it, which is from the reverseInPlace method.
 
 ```
-public void testReverseInPlace() {
+public void testReverseInPlaceFail() {
   int[] input1 = {1,2,3,4,5};
   ArrayExamples.reverseInPlace(input1);
   assertArrayEquals(new int[]{5,4,3,2,1}, input1);
@@ -14,7 +14,7 @@ public void testReverseInPlace() {
 ```
 This test is intended to assess the method's functionality with a straightforward input to confirm its basic operation. However, the current outcome indicates a failure, as the observed output is ```{5, 4, 3, 4, 5}```.
 ```
-public void testReverseInPlace() {
+public void testReverseInPlaceSuccess() {
   int[] input1 = {1,2,2,1};
   ArrayExamples.reverseInPlace(input1);
   assertArrayEquals(new int[]{1,2,2,1}, input1);
