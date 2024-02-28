@@ -47,7 +47,7 @@ This code begins by initializing a temporary integer using the variable `i` with
 
 ## Part 2:
 ## Find Command
-The find command is an extremely useful way to find specific files or directories. The ```type``` option enables the identification of items based on their characteristics, such as directories (designated by 'd'), files ('f'), and so on.
+The ```find``` command is an extremely useful way to find specific files or directories. The ```type``` option enables the identification of items based on their characteristics, such as directories (designated by 'd'), files ('f'), and so on.
 
 Executing the command ```find ./technical -type d``` generates a list of directories within the ```./technical``` directory.
 The resulting output is:
