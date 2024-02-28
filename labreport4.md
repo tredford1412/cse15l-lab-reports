@@ -56,3 +56,13 @@ In this step, I exited Vim, and then I streamlined the process by pressing `<up>
 In summary: This step closely mirrored step 3, with the notable enhancement of efficiency through the use of `<up>` arrows to quickly recover and rerun the previous bash command.
 
 ![image](lr4pic8.png)
+
+___
+
+In this step, I initiated the staging process by typing `git add .` and pressing `<enter>`, which stages all modified or newly added files for the upcoming commit in the current branch. Following that, I entered `git commit -m "bug fixed"` and pressed `<enter>` to commit the changes to the main branch of my forked repository with a concise message provided after the `-m` option. 
+
+To conclude, I executed `git push` and pressed `<enter>`, pushing the committed changes to the remote server. The output displayed details on the number of modified files, insertions, deletions, and other relevant information after the `git push` command.
+
+In summary: Leveraging Git commands, I successfully added, committed, and pushed the changes to my repository. Utilizing the `-m` option in `git commit -m "bug fixed"` allowed me to streamline the process by avoiding the need to enter Vim and make additional keystrokes, enhancing efficiency.
+
+![image](lr4pic7.png)
