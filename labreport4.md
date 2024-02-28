@@ -1,8 +1,8 @@
-# CSE 15L Lab Report 3:
+# CSE 15L Lab Report 4:
 ## Hugh Trevor Redford
 ## A17067426
 
-**Step 1: Log into ieng6.**
+**Step 1: Log into my ieng6.**
 
 In this step, I initiated the login process by entering `ssh htredford@ieng6.ucsd.edu` and pressing `<enter>`.
 
@@ -22,7 +22,7 @@ In summary, I employed these commands to efficiently clone the repository into i
 
 ___
 
-**Step 3: Running the test, demonstrating failure.**
+**Step 3: Running the test, with demonstrating failure.**
 
 In this step, I employed the `ls` command to inspect the contents of ieng6. Subsequently, I navigated to the 'lab7' directory by using `cd l` followed by `<tab>` for auto-completion, then pressed `<enter>` to execute the command. Afterward, I utilized `ls` once more and executed the JUnit tests with the command `bash t` + `<tab>` for auto-completion, followed by pressing `<enter>`.
 
@@ -32,7 +32,7 @@ In summary: These commands facilitated the execution of JUnit tests, demonstrati
 
 ___
 
-**Step 4: Edit the code file to fix the failing test**
+**Step 4: Edit the code file to fix the failing test utilizing vim**
 
 In this step, I addressed the error in the file 'ListExamples.java' by utilizing the command `vim ListExamples.java`, manually inputting it due to a naming conflict with another file. After typing the command, I pressed `<enter>` to execute and access Vim. Once in Vim, I entered insert mode with `<i>`. Proceeding, I navigated down 43 lines and right 12 times to pinpoint the section of code requiring modification. While in insert mode, I used `<backspace>` to eliminate the '1' in `index1` and replaced it with '2' by pressing `<2>`. Exiting insert mode with `<esc>`, I employed the command `:wq` to save and exit the file.
 
@@ -58,6 +58,8 @@ In summary: This step closely mirrored step 3, with the notable enhancement of e
 ![image](lr4pic8.png)
 
 ___
+
+**Step 6: Commit and push the resulting change to my Github account**
 
 In this step, I initiated the staging process by typing `git add .` and pressing `<enter>`, which stages all modified or newly added files for the upcoming commit in the current branch. Following that, I entered `git commit -m "bug fixed"` and pressed `<enter>` to commit the changes to the main branch of my forked repository with a concise message provided after the `-m` option. 
 
